@@ -1,0 +1,6 @@
+const tableStyle = {
+  width: "400px",
+  textAlign: "center",
+  borderCollapse: "collapse",
+  border: "1px solid black"
+}

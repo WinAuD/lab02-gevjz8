@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
+import Article from "./Article";
+import ANum from "./ANum";
 
-ReactDOM.render(<App />, document.getElementById("divElement"));
+ReactDOM.render(<ANum />, document.getElementById("divElement"));
