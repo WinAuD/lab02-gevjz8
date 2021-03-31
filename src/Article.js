@@ -18,7 +18,7 @@ class Table extends Component {
           <th >Value</th>
         </tr>
         <tr>
-          
+           
         </tr>
       </table>
     );

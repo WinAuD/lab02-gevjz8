@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Article from "./Article";
-import ANum from "./ANum";
+import App from "./App";
+import ADesc from "./ADesc";
 
-ReactDOM.render(<ANum />, document.getElementById("divElement"));
+ReactDOM.render(<ADesc />, document.getElementById("divElement"));
