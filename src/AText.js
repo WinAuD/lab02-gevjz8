@@ -4,6 +4,7 @@ import './ANum.css';
 class App extends Component {
   render() {
     const color = this.props.myColor;
+    //const mytext = this.props.mytext;
 
     const textStyle = {
       backgroundColor: color,
@@ -13,7 +14,7 @@ class App extends Component {
 
     return (
       <div style={textStyle} className="page">
-        Text
+        Text{this.props.mytext}
       </div>
     );
   }
