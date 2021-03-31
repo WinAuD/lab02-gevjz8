@@ -7,13 +7,13 @@ class App extends Component {
 
     const textStyle = {
       backgroundColor: color,
-      fontSize: "10px",
-      fontfamily: 'Arial'
+      width: "5px",
+      height: "5px"
     }
 
     return (
       <div style={textStyle} className="page">
-        Text
+        <img src={this.props.imageSrc}/>
       </div>
     );
   }
