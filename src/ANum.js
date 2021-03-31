@@ -7,7 +7,8 @@ class App extends Component {
 
     const textStyle = {
       backgroundColor: color,
-      fontSize: "32px"
+      fontSize: "32px",
+      textAlign: "center"
     }
 
     return (

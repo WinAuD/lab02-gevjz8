@@ -9,7 +9,8 @@ class App extends Component {
     const textStyle = {
       backgroundColor: color,
       fontSize: "10px",
-      fontfamily: 'Arial'
+      fontfamily: 'Arial',
+      textAlign: "center"
     }
 
     return (
