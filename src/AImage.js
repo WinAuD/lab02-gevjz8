@@ -18,7 +18,7 @@ class App extends Component {
 
     return (
       <div className="pageAImage">
-        <img src={this.props.imageSrc} style={imgStyle}/>
+        <img src={this.props.imageSrc} className="imgStyle"/>
       </div>
     );
   }
