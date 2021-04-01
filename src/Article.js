@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import AImage from './AImage.js';
 import ADesc from './ADesc.js';
+import './Article.css';
 
 class Table extends Component {
   render() {
@@ -14,13 +15,13 @@ class Table extends Component {
     }
 
     return (
-      <table style={tableStyle} >
+      <table className="page" >
         <tr>
-          <td><AImage myColor={'#DDA'} imageSrc={this.props.imageSrc}/></td>
+          <td><AImage myColor={'#ffe066'} imageSrc={this.props.imageSrc}/></td>
           <td><ADesc mytext={this.props.mytext} mynum={this.props.mynum}/></td>
         </tr>
       </table>
     );
   }
 }
-export default Table;
+export default Table; 

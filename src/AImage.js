@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './ANum.css';
+import './AImage.css';
  
 class App extends Component {
   render() {
@@ -17,11 +17,11 @@ class App extends Component {
     }
 
     return (
-      <div style={textStyle}  className="page">
+      <div className="pageAImage">
         <img src={this.props.imageSrc} style={imgStyle}/>
       </div>
     );
   }
 }
-export default App;    
+export default App;     
  
