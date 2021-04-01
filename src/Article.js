@@ -16,8 +16,8 @@ class Table extends Component {
 
     return (
       <table className="page" >
-        <tr>
-          <td><AImage myColor={'#ffe066'} imageSrc={this.props.imageSrc}/></td>
+        <tr >
+          <td ><AImage myColor={'#ffe066'} imageSrc={this.props.imageSrc}/></td>
           <td><ADesc mytext={this.props.mytext} mynum={this.props.mynum}/></td>
         </tr>
       </table>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './ANum.css';
+import './AText.css';
  
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
     }
 
     return (
-      <div style={textStyle} className="page">
+      <div className="pageAText">
         {this.props.mytext}
       </div>
     );

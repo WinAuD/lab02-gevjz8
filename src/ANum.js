@@ -12,7 +12,7 @@ class App extends Component {
     }
 
     return (
-      <div style={textStyle} className="page">
+      <div className="pageANum">
         {this.props.mynum}
       </div>
     );

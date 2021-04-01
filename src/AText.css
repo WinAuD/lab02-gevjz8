@@ -1,9 +1,9 @@
-.page {
-    width: 100%;
+.pageAText {
+    width: 80%;
     height: 100%;
-    background: #ffffff;
+    background: #e69d9d;
     text-align: center;
-    padding: 0px;
-    margin: 10px;
-    font-size: 50px;
+    padding: 10px;
+    margin: 3px;
+    font-size: 10px;
 }
