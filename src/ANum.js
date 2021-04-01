@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './ANum.css';
  
-class App extends Component {
+class ANum extends Component {
   render() {
     const color = this.props.myColor;
 
@@ -18,5 +18,5 @@ class App extends Component {
     );
   }
 }
-export default App;     
+export default ANum;     
  

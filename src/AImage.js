@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './AImage.css';
  
-class App extends Component {
+class AImage extends Component {
   render() {
     const color = this.props.myColor;
 
@@ -23,5 +23,5 @@ class App extends Component {
     );
   }
 }
-export default App;     
+export default AImage;     
  

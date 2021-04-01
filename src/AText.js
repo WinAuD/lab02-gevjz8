@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './AText.css';
  
-class App extends Component {
+class AText extends Component {
   render() {
     const color = this.props.myColor;
     const mytext = this.props.mytext;
@@ -20,5 +20,5 @@ class App extends Component {
     );
   }
 }
-export default App;     
+export default AText;     
  

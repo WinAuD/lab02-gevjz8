@@ -3,7 +3,7 @@ import AText from './AText.js';
 import ANum from './ANum.js';
 import './ADesc.css';
 
-class Table extends Component {
+class ADesc extends Component {
   render() {
     
     const tableStyle = {
@@ -13,17 +13,17 @@ class Table extends Component {
     }
 
     return (
-      <table classname="pageADesc">
+      <table className="pageADesc">
         <tr >
           <td> 
-            <AText myColor={'#ACC'} mytext={this.props.mytext} />
+            <AText mytext={this.props.mytext}/>
           </td>
           <td>
-            <ANum myColor={'#AAE'} mynum={this.props.mynum}/> 
+            <ANum mynum={this.props.mynum}/> 
           </td>
         </tr>
       </table>
     );
   }
 }
-export default Table; 
+export default ADesc; 
