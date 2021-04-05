@@ -15,10 +15,10 @@ class ADesc extends Component {
     return (
       <table className="pageADesc">
         <tr >
-          <td> 
+          <td className="pageADesc"> 
             <AText mytext={this.props.mytext}/>
           </td>
-          <td>
+          <td className="pageADesc">
             <ANum mynum={this.props.mynum}/> 
           </td>
         </tr>
@@ -26,4 +26,4 @@ class ADesc extends Component {
     );
   }
 }
-export default ADesc; 
+export default ADesc;  

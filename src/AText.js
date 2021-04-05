@@ -20,5 +20,5 @@ class AText extends Component {
     );
   }
 }
-export default AText;     
+export default AText;      
  

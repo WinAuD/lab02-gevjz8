@@ -1,9 +1,9 @@
 .pageANum {
-    width: 80%;
-    height: 100%;
+    width: 60%;
+    height: 70%;
     background: #f5eded;
     text-align: center;
     padding: 0px;
     margin: 10px;
-    font-size: 32px;
+    font-size: 32px; 
 }

@@ -3,9 +3,11 @@
     height: 10%;
     background: #cfdae2;
     text-align: center;
-    padding: 2px;
+    padding: 13px;
     margin: 0px;
     border-style: solid;
     border-width: 1px;
+    border-collapse: collapse;
 }
+
 

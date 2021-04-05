@@ -17,11 +17,11 @@ class Table extends Component {
     return (
       <table className="page" >
         <tr >
-          <td ><AImage myColor={'#ffe066'} imageSrc={this.props.imageSrc}/></td>
-          <td><ADesc mytext={this.props.mytext} mynum={this.props.mynum}/></td>
+          <td className="page"><AImage myColor={'#ffe066'} imageSrc={this.props.imageSrc}/></td>
+          <td className="page"><ADesc mytext={this.props.mytext} mynum={this.props.mynum}/></td>
         </tr>
       </table>
     );
   }
 }
-export default Table; 
+export default Table;  

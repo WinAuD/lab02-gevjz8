@@ -18,5 +18,5 @@ class ANum extends Component {
     );
   }
 }
-export default ANum;     
+export default ANum;      
  
