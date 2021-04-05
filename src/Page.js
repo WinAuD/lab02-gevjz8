@@ -9,7 +9,7 @@ class Page extends Component {
     let i;
     let outArray = [];
     for (i = 0; i < inArray.length; i++){
-      let Article = inArray[i];
+      let article = inArray[i];
       outArray.push( <Article {...article} mynum = {i}></Article>);
     } 
     return outArray;   

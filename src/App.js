@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './App.css';
 
 import Article from "./Article";
+import Page from "./Page";
  
 class App extends Component {
   articles=[
